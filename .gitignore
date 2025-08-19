@@ -1,0 +1,19 @@
+# Server
+server/node_modules
+server/dist
+server/build
+server/logs
+
+# Client
+client/node_modules
+client/dist
+client/build
+client/logs
+
+# Environment variables
+.env
+.env.local
+
+
+# OS
+.DS_Store
