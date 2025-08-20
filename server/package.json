@@ -1,20 +1,25 @@
 {
   "name": "basecampo-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Project Management Tool.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rithvik Pallamreddy",
   "license": "ISC",
   "packageManager": "pnpm@10.14.0",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2"
   }
 }
